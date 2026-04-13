@@ -148,6 +148,26 @@ body::before {
   max-width: 520px;
 }
 
+/* ─── Redirect note ─────────────────────────────────────────────────────────── */
+.redirect-note {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--color-muted);
+  line-height: 1.6;
+}
+
+.redirect-link {
+  color: var(--color-text);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  transition: border-color var(--transition), color var(--transition);
+}
+
+.redirect-link:hover {
+  color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.7);
+}
+
 /* ─── Footer ────────────────────────────────────────────────────────────────── */
 .site-footer {
   padding-block: 1rem;
