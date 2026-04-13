@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Willis Web – thoughtful web design and development." />
+    <title>Willis Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="site-header">
+        <div class="logo">
+          <span class="logo-mark">&lt;/&gt;</span>
+          <span class="logo-text">Willis<strong>Web</strong></span>
+        </div>
+      </header>
+
+      <main class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Welcome</p>
+          <h1 class="headline">
+            Building the web,<br />
+            <span class="accent">one site at a time.</span>
+          </h1>
+          <p class="tagline">
+            willisweb.com is the home for thoughtful web design and
+            development. Something new is on the way — check back soon.
+          </p>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; <span id="year"></span> Willis Web. All rights reserved.</p>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
